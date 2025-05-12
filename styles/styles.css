@@ -97,3 +97,5 @@ input[type="text"] {
 #start-button:hover {
     background-color: #2980b9; /* ホバー時の背景色 */
 }
+
+/* Removed invalid HTML tags from the CSS file */
