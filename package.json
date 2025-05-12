@@ -1,0 +1,22 @@
+{
+  "name": "compatibility-check-app",
+  "version": "1.0.0",
+  "description": "A simple single-page application for checking compatibility.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "compatibility",
+    "check",
+    "app",
+    "SPA"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

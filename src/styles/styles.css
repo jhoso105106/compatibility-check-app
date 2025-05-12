@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* 背景画像を指定 */
+    background-size: cover; /* 画像を画面全体に拡大 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+}
+
+/* タイトルのスタイル */
+h1 {
+    font-family: 'Poppins', sans-serif; /* 丸文字風フォントを適用 */
+    color: #007BFF; /* 鮮やかな青色 */
+    font-size: 2.5rem; /* フォントサイズを大きく */
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 文字に影を追加して目立たせる */
+}
+
+#question-container, #result-container {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 400px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* テキストボックスのスタイル */
+input[type="text"] {
+    display: block; /* テキストボックスを縦に並べる */
+    margin: 10px auto; /* 中央揃え */
+    width: 80%; /* 幅を80%に設定 */
+    max-width: 300px; /* 最大幅を300pxに制限 */
+    padding: 8px; /* 内側の余白を設定 */
+    font-size: 14px; /* フォントサイズを調整 */
+    border: 1px solid #ccc; /* 枠線の色 */
+    border-radius: 5px; /* 角を丸くする */
+    box-sizing: border-box; /* パディングを含めた幅を計算 */
+    margin-bottom: 10px; /* 下に余白を追加 */
+}
+
+.choice-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #87CEEB; /* 水色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice-button:hover {
+    background-color: #00BFFF; /* 濃い水色 */
+}
+
+/* スタートボタン */
+#start-button {
+    display: block; /* ボタンを中央揃え */
+    margin: 20px auto; /* 上下に余白を追加 */
+    padding: 10px 20px; /* ボタンの内側の余白を設定 */
+    background-color: #3498db; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    border: none; /* 枠線を削除 */
+    border-radius: 5px; /* 角を丸くする */
+    cursor: pointer; /* カーソルをポインタに変更 */
+    font-size: 16px; /* フォントサイズを調整 */
+}
+
+#start-button:hover {
+    background-color: #2980b9; /* ホバー時の背景色 */
+}
