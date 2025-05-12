@@ -107,8 +107,8 @@ input[type="text"] {
 
 /* アイコン画像のスタイル */
 .icon {
-    width: 50px; /* 画像の幅を調整 */
-    height: 50px; /* 画像の高さを調整 */
+    width: 50px; /* 画像の幅を50pxに設定 */
+    height: 50px; /* 画像の高さを50pxに設定 */
     margin-right: 10px; /* テキストとの間に余白を追加 */
     border-radius: 50%; /* 丸くする（任意） */
 }
