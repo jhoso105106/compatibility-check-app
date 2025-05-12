@@ -100,10 +100,14 @@ input[type="text"] {
 
 /* 名前入力フォームのスタイル */
 .name-input {
-    display: flex; /* 横並びにする */
+    display: flex; /* 縦方向に並べる */
     flex-direction: column; /* 縦方向に並べる */
     align-items: center; /* 中央揃え */
     margin-bottom: 20px; /* 下に余白を追加 */
+    background-color: rgba(255, 255, 255, 0.5); /* 白色で透明度50% */
+    padding: 15px; /* 内側の余白を追加 */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 軽い影を追加 */
 }
 
 /* アイコン画像のスタイル */
