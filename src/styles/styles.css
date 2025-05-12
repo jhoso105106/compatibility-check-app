@@ -97,3 +97,18 @@ input[type="text"] {
 #start-button:hover {
     background-color: #2980b9; /* ホバー時の背景色 */
 }
+
+/* 名前入力フォームのスタイル */
+.name-input {
+    display: flex; /* 横並びにする */
+    align-items: center; /* 縦方向を中央揃え */
+    margin-bottom: 15px; /* 下に余白を追加 */
+}
+
+/* アイコン画像のスタイル */
+.icon {
+    width: 50px; /* 画像の幅を調整 */
+    height: 50px; /* 画像の高さを調整 */
+    margin-right: 10px; /* テキストとの間に余白を追加 */
+    border-radius: 50%; /* 丸くする（任意） */
+}
